@@ -67,7 +67,7 @@ def requestBusData(url, outputFile):
 def main():
     # リクエストURLを作成
     base_url = "https://api.odpt.org/api/v4/odpt:Bus"
-    MY_CONSUMER_KEY = "d4e7df8ab671c10f6d7b833606312b3b65d698f9a9f7c6fcc197a72a4604eb8b"
+    MY_CONSUMER_KEY = "Your consumer key"
     
     # エラーハンドリングの関数を登録
     # atexit.register(sendNotificationToSlack, "@channel 都バスデータの取得が停止しました(渋滞検知Webサービス)") # Slack Incoming Webhook
